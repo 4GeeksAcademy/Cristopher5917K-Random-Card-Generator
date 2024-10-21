@@ -1,1 +1,36 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+
+.card {
+  display: -moz-grid-group;
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.picas {
+  font-size: 100px;
+  margin-top: -40px;
+}
+
+.picasBottom {
+  display: flex;
+  font-size: 100px;
+  margin-bottom: -30px;
+  justify-content: end;
+}
+
+.numCard {
+  display: flex;
+  font-size: 100px;
+  justify-content: center;
+}
+
+.picasRed {
+  color: red;
+}
